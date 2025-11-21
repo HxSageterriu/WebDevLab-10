@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 10 - ES6 Product App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Product Catalog (Lab 10)</h1>
+
+    <div class="controls">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Accessories">Accessories</option>
+      </select>
+
+      <input type="number" id="maxPrice" placeholder="Max Price">
+
+      <button id="sortLow">Sort Low → High</button>
+      <button id="sortHigh">Sort High → Low</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div id="productContainer" class="products"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
